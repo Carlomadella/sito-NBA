@@ -4,24 +4,47 @@
     box-sizing: border-box;
 }
 
+.dashboard{
+    background-image: url(../assets/img/header-pic-best-75-nba.jpg);
+    height: 700px;
+    /* filter: blur(3px);  */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .dash-link{
     display: flex;
     justify-content: space-between;
-    width: 100%;
     height: 100px;
-    background-color: yellow;
+    background-color: orange;
 }
 
+.dash-link a{
+   color: #fff;
+   text-decoration: none;
+   padding: 15px;
+}
 
+.dash-link i{
+    padding: 10px;
+ }
+
+.title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    color: white;
+}
 
 
 /* COLONNE */
-.col-50{
-    width: 50%;
-    background-color: red;
-}
-
 .col-40{
     width: 40%;
-    background-color: green;
+}
+
+.col-30{
+    width: 30%;
 }
