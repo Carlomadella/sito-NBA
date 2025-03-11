@@ -1,50 +1,43 @@
+/* Scopri la storia della National Basketball Association attraverso la  */
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.dashboard{
-    background-image: url(../assets/img/header-pic-best-75-nba.jpg);
-    height: 700px;
-    /* filter: blur(3px);  */
-    background-repeat: no-repeat;
-    background-size: cover;
+.container-fluid{
+    --bs-gutter-x: 0rem;
 }
 
-.dash-link{
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
-    background-color: orange;
+header{
+    margin: 0;
 }
 
-.dash-link a{
-   color: #fff;
-   text-decoration: none;
-   padding: 15px;
+header a, .col-4, i, .col-6{
+    color: #FA8320;
 }
 
-.dash-link i{
-    padding: 10px;
- }
-
-.title{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    width: 100%;
-    z-index: 1;
-    color: white;
+header a{
+    text-decoration: none;
 }
 
-
-/* COLONNE */
-.col-40{
-    width: 40%;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-.col-30{
+.bg-orange{
+    background-color: #FA8320;
+}
+
+hr{
     width: 30%;
+}
+
+#header-p{
+    color: #FA8320;
+}
+
+.bg-lightblue{
+    background-color: #5b7c99;
 }
