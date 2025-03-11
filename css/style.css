@@ -47,8 +47,22 @@ img {
     color: #FA8320;
 }
 
+.b-shadow{
+  box-shadow: #FA8320 5px 5px;
+}
+
+/* TITOLI */
+h1{
+  text-shadow: 2px 2px 2px orange;
+}
+
 h2{
+  text-shadow: 1px 1px 1px orange;
     color: #212529;
+}
+
+.col-1{
+  background-color: #212529;
 }
 
 /* TIMELINE */
