@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FA8320;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.col-6{
+    background-color: #FA8320; 
+    height: auto;  
+}
+

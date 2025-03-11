@@ -65,6 +65,20 @@ h2{
   background-color: #212529;
 }
 
+main hr{
+  color: white;
+  height: 3px;
+}
+.card{
+  width: auto;
+}
+
+.card-body .btn-primary{
+  background-color: white;
+  border: none;
+  color: green;
+}
+
 /* TIMELINE */
 .horizontal-timeline .items {
     border-top: 3px solid #e9ecef;
