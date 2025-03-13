@@ -1,4 +1,3 @@
-/* Scopri la storia della National Basketball Association attraverso la  */
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +13,7 @@ header{
     margin: 0;
 }
 
-header a, i, .col-6{
+header a, header i, header.col-6{
     color: #FA8320;
 }
 
@@ -22,7 +21,7 @@ header a{
     text-decoration: none;
 }
 
-img {
+header img {
     max-width: 100%;
     height: auto;
 }
@@ -51,66 +50,41 @@ img {
   box-shadow: #FA8320 5px 5px;
 }
 
+hr{
+  background-color: #FA8320;
+  color: #FA8320;
+}
+
 /* TITOLI */
 h1{
   text-shadow: 2px 2px 2px orange;
+  color: #FA8320;
 }
 
-h2{
+header>h2{
   text-shadow: 1px 1px 1px orange;
-    color: #212529;
+  color: #212529;
+}
+
+.timeline-intro{
+  color: #d9c190;
 }
 
 .col-1{
   background-color: #212529;
 }
 
-main hr{
-  color: white;
-  height: 3px;
-}
-.card{
-  width: auto;
-}
-
-.card-body .btn-primary{
-  background-color: white;
-  border: none;
-  color: green;
-}
-
 /* TIMELINE */
-.horizontal-timeline .items {
-    border-top: 3px solid #e9ecef;
-  }
-  
-  .horizontal-timeline .items .items-list {
-    display: block;
-    position: relative;
-    text-align: center;
-    padding-top: 70px;
-    margin-right: 0;
-  }
-  
-  .horizontal-timeline .items .items-list:before {
-    content: "";
-    position: absolute;
-    height: 36px;
-    border-right: 2px dashed #dee2e6;
-    top: 0;
-  }
-  
-  .horizontal-timeline .items .items-list .event-date {
-    position: absolute;
-    top: 36px;
-    left: 0;
-    right: 0;
-    width: 75px;
-    margin: 0 auto;
-    font-size: 0.9rem;
-    padding-top: 8px;
-  }
 
+.line{
+  background-color: #fff;
+  height: 10px;
+  position:absolute;
+  left: 110px;
+  z-index: 0;  
+}
+
+/* colori */
 .color-orange{
     color: #FA8320;
 }

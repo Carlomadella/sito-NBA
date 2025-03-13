@@ -18,22 +18,24 @@
 <!-- MOBILE-FIRST-->
 <body>
 <!-- HEADER -->
-    <header>
-        <div class="container-fluid bg-dark">
-            <div id="jumbotron" class="container-fluid bg-dark text-center">
-                <!-- link a sinistra -->
-                <div class="row py-3">
+  <header> <!--sistemare l'indentazione dalla seconda riga in poi-->
+    <div class="container-fluid bg-dark">
+        <div id="jumbotron" class="container-fluid bg-dark text-center">
+              <!-- link a sinistra -->
+              <div class="row py-3">
+                  <div class="col-1 d-block shadow rounded">
+                    <i class="fa-solid fa-ranking-star d-block text-center fs-2 py-1"></i>
+                    <a href="#">Classifica</a>
+                  </div>
+                  <div class="col-1 d-block shadow rounded">
+                    <i class="fa-duotone fa-solid fa-people-group d-block text-center fs-2 py-1" style="--fa-primary-color: #ea9606; --fa-secondary-color: #ea9606;"></i>
+                    <a href="#">Squadre</a>
+                    
+                  </div>
                     <div class="col-1 d-block shadow rounded">
-                      <a href="#">Classifica</a>
-                      <i class="fa-solid fa-ranking-star d-block text-center fs-2 py-1"></i>
-                    </div>
-                    <div class="col-1 d-block shadow rounded">
-                      <a href="#">Squadre</a>
-                      <i class="fa-duotone fa-solid fa-people-group d-block text-center fs-2 py-1" style="--fa-primary-color: #ea9606; --fa-secondary-color: #ea9606;"></i>
-                    </div>
-                    <div class="col-1 d-block shadow rounded">
-                      <a href="#">Notizie</a>
                       <i class="fa-solid fa-newspaper d-block text-center fs-2 py-1"></i>
+                      <a href="#">Notizie</a>
+                      
                     </div>
                 <!-- logo -->
                     <div class="col-6">
@@ -41,61 +43,94 @@
                     </div>
                 <!-- link a destra -->
                     <div class="col-1 d-block shadow rounded">
-                      <a href="./html/giocatori.html">Giocatori</a>
                       <i class="fa-solid fa-user d-block text-center fs-2 py-1"></i>
+                      <a href="./html/giocatori.html">Giocatori</a>
+                      
                     </div>
                     <div class="col-1 d-block shadow rounded">
-                      <a href="#">Column</a>
                       <i class="fa-solid fa-ranking-star d-block text-center fs-2 py-1"></i>
+                      <a href="#">Column</a>
+                      
                     </div>
                     <div class="col-1 d-block shadow rounded">
                       Search
                     </div>
                 </div>
             </div>
-            <div id="jumbo-title" class="container-lg py-5">
+<!-- Jumbotron -->
+            <div id="jumbo-title" class="container-lg py-5 d-flex">
                 <div class="row">
-                    <div class="col-4 bg-dark py-3">
+                    <div class="col-5 bg-dark py-3 align-content-center">
                         <h2>Vivi tutta la magia della lega di Basket più appassionante al mondo<i class="fa-solid fa-basketball"></i></h2>
                         <hr>
                         <p id="header-p">Resta sempre aggiornato attraverso notizie, aggiornamenti sulla stagione attuale, classifica  attuale e rumors su tutto ciò che riguarda la NBA.
                           Worldwide NBA è un connubio tra presente e passato, in questo angolo del web potrai informarti al 100% sulla storia di questa lega così da poter diventare un esperto. Questo percorso ti farà scoprire aneddoti e racconti di cui non eri a conoscenza attraverso notizie, giochi, statistiche e molto altro.
                         </p>
                     </div>
-                    <div class="col-8">
+                    <div class="col-7 py-3">
                         <img src="./assets/img/75th_year_nba.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </header>
+<!-- FINE HEADER -->
+    <hr class="m-0">
 <!-- MAIN -->
-    <main>
-        <div class="container-fluid bg-orange py-3 text-center">
-            <h2>Scopri la storia della National Basketball Association attraverso la linea temporale qua sotto.</h2>
-            <p>
-              Rivivi i momenti più iconici, dalla fondazione della lega al più recente rumor, ti basterà passare sopra alla data che hai scelto e si aprirà direttamente la notizia selezionata
-            </p>
+  <main>
+<!-- TIMELINE sistemare indentazione-->
+      <div class="container-fluid bg-dark py-5">
+        <div class="row">
+          <div class="col-12 timeline-intro text-center">
+            <h2>Approfondisci il tuo livello di conoscenza della National Basketball Association attraverso la linea temporale</h2>
+            <p> Usa le frecce per spostarti tra le epoce e ripercorri le tappe più importanti del percorso che hanno portato la lega a come la conosciamo oggi</p>
+          </div>
         </div>
-        <div class="date bg-orange">
-          <span class="badge text-bg-secondary">5 Maggio 1969</span>
-        </div>
-        <hr>
-        <div class="container-fluid px-5 py-5 bg-orange text-white">
-          <div class="row d-flex overflow-x-scroll">
-            <div class="col-4">
-              <div class="card" style="width: 18rem;">
-                <img src="./assets/img/boston-celtics-1969.jpg" class="card-img-top" alt="...">
-                <div class="card-body bg-success text-white">
-                  <h5 class="card-title">Hoop Dreams: la vittoria dei Boston Celtics nel 1969</h5>
-                  <p class="card-text">Un momento indimenticabile nella storia della NBA è la vittoria dei Boston Celtics nel 1969. In un'epica finale contro i Los Angeles Lakers, i Celtics sono riusciti a imporsi vincendo il settimo e decisivo incontro. Questa vittoria ha sancito l'undicesimo titolo NBA per i Celtics, ma è stato il modo in cui hanno raggiunto la vittoria che ha reso questo momento così emozionante. La partita è stata caratterizzata da intense battaglie sul campo, tiri decisivi e un'energia travolgente nell'arena.
-
-                    I tifosi sono stati tenuti sulle spine fino all'ultimo secondo, e quando la sirena ha annunciato la fine del gioco, il pubblico è esploso in un tripudio di gioia e celebrazione. Questa vittoria è stata un punto di svolta nella storia della NBA e ha solidificato la reputazione dei Boston Celtics come una delle più grandi squadre di tutti i tempi. </p>
-                  <a href="#" class="btn btn-primary">Vai alla pagina Boston Celtics</a>
-                </div>
+        <!-- Prima card: nascita nba -->
+        <div class="row py-5 d-flex justify-content-around align-items-center position-relative">
+          <div class="col-10 line"></div>
+          <div class="col-1 d-flex justify-content-center ">
+            <i class="fa-solid fa-circle-arrow-left fs-2 text-white"></i>
+          </div>
+          <div class="col-3">
+            <div class="card text-bg-dark">
+              <img src="./assets/img/boston-celtics-1969.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay pt-0">
+                <h5 class="card-title">Boston Celtics</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small>Last updated 3 mins ago</small></p>
               </div>
             </div>
+          </div>
+          <!-- seconda card:  -->
+          <div class="col-3 ">
+            <div class="card text-bg-dark">
+              <img src="./assets/img/boston-celtics-1969.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay pt-0">
+                <h5 class="card-title">1 novembre 1946, la prima partita della storia della NBA</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+          <!-- terza card -->
+          <div class="col-3 ">
+            <div class="card text-bg-dark">
+              <img src="./assets/img/boston-celtics-1969.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay pt-0">
+                <h5 class="card-title">1 novembre 1946, la prima partita della storia della NBA</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-1 freccia">
+            <i class="fa-solid fa-circle-arrow-right fs-2 text-white"></i>
+          </div>
         </div>
-    </main>
+      </div>
+<!-- Fine timeline -->
+    <hr class="m-0">
+  </main>
 </body>
 </html>
