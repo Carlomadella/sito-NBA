@@ -9,10 +9,6 @@
     --bs-gutter-x: 0rem;
 }
 
-header{
-    margin: 0;
-}
-
 header a, header i, header.col-6{
     color: #FA8320;
 }
@@ -55,15 +51,30 @@ hr{
   color: #FA8320;
 }
 
+iframe{
+  width: 100%;
+  height: auto;
+}
+
 /* TITOLI */
 h1{
   text-shadow: 2px 2px 2px orange;
   color: #FA8320;
 }
 
-header>h2{
+h2{
   text-shadow: 1px 1px 1px orange;
-  color: #212529;
+
+  color: #d9c190;
+}
+
+figure{
+  color: #d9c190;
+  text-align: center;
+}
+
+iframe{
+  object-fit: cover;
 }
 
 .timeline-intro{
@@ -88,35 +99,3 @@ header>h2{
 .color-orange{
     color: #FA8320;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* MEDIA QUERIES */
-  
-  @media (min-width: 1140px) {
-    .horizontal-timeline .items .items-list {
-      display: inline-block;
-      width: 24%;
-      padding-top: 45px;
-    }
-  
-    .horizontal-timeline .items .items-list .event-date {
-      top: -40px;
-    }
-  }
